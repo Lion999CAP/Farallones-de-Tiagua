@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+header{
+	display: grid;
+	color: rgb(63, 98, 28);
+    grid-template-columns: auto auto auto;
+    min-height: 40px;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 0;
+	position: sticky;
+  	top: 0;
+  	z-index: 1;
+  	background-image: url('img/nubes.jpg');
+  	background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border-radius: 4%;
+}
+
+header a {
+  color: #783014;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+        color:rgb(255,60,0);
+        }
+
+.second > p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+#menu{
+	align-items: left;
+}
+
+footer{
+	color: #2b2714;
+	background-color: #ffff;
+}
+
+.cuerpo{
+	display: grid;
+  	grid-template-columns: auto auto;
+	gap: 10px;
+    background-color: #00ffff;
+    padding: 10px;
+}
+
+.cuerpo > div{
+	background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+#img1{
+	height: 500px;
+	width:  850px;
+}
+
+#logo{
+	height: 50px;
+	width:  85px;
+}
+
+#head{
+	height: 500px;
+	width:  850px;
+}
+
+.imagen1{
+	grid-row: 0.2;
+}
+
+#admin_img{
+	height: 80px;
+	width:  50px;
+}
+
+video{
+	width: 850px;
+	height: 500px;
+}
+
+button {
+  background-color: #4CAF50; /* Color de fondo */
+  border: none; /* Sin borde */
+  color: white; /* Color del texto */
+  padding: 10px 20px; /* Relleno */
+  text-align: center; /* Alineación de texto */
+  text-decoration: none; /* Sin subrayado */
+  display: inline-block; /* Mostrar como bloque en línea */
+  font-size: 16px; /* Tamaño de fuente */
+  margin: 4px 2px; /* Margen */
+  cursor: pointer; /* Cursor al pasar el ratón */
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: #fff;
+}
+
+@media (max-width:800px){
+        header{
+                flex-direction: column;
+                }
+ 		nav{
+                padding: 10px 0px;
+                }
+        #img1,
+        video{
+        		height: 200px;
+				width:  350px;
+       			}
+       	.cuerpo{
+       			display: grid;
+  				grid-template-columns: auto;
+       			}
+        }
